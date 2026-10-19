@@ -4,11 +4,12 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "./assets/vite.svg";
 import "./App.css";
 import { Users } from "./Users";
+import { JobTracker } from "./JobTracker";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <Users />;
+  return <JobTracker />;
 }
 
 export default App;
